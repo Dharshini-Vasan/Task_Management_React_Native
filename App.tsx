@@ -21,7 +21,7 @@ const AppNavigator = ({ isLoggedIn, onLogout }) => {
       } else {
         Alert.alert(
           'Internet Connected',
-          'You are now connected to the internet.',
+          'You are back online.',
           [{ text: 'OK' }] 
         );
       } });
